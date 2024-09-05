@@ -203,10 +203,9 @@ body {
 }
 
 .wish-hbd {
-  font-size: 2em;
+  font-size: 1em;
   margin: 0;
-  text-emphasis-color: gold ;
-  letter-spacing: 1em;
+  letter-spacing: 0.5em;
 }
 
 .wish h5 {
@@ -256,6 +255,21 @@ body {
     width: 90%;
   }
 
+  @media (max-width: 768px) {
+    .six img {
+      height: 200px; /* Reduce the height for mobile devices */
+      max-width: 100%; /* Ensure the width fits within the screen */
+      /* height: auto; Optional, uncomment if you prefer automatic height based on width */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .six img {
+      height: 150px; /* Further reduce height for smaller devices */
+      max-width: 100%; /* Ensure the width fits within the screen */
+    }
+  }
+  
   .four .text-box {
     width: 90%;
   }
