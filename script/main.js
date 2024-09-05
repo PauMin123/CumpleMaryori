@@ -216,20 +216,23 @@ const animationTimeline = () => {
         },
         0.1
     )
+    
     .staggerFromTo(
         ".wish-hbd span",
         0.7, {
-            scale: 1.4,
-            rotationY: 150,
+          scale: 1.4,
+          rotationY: 150,
         }, {
-            scale: 1,
-            rotationY: 0,
-            color: "#ff69b4",
-            ease: Expo.easeOut,
+          scale: 1,
+          rotationY: 0,
+          color: "#56070C", // Cambia el color aquí
+          ease: Expo.easeOut,
         },
         0.1,
         "party"
-    )
+      )
+      
+    
     .from(
         ".wish h5",
         0.5, {

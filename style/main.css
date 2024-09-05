@@ -91,7 +91,7 @@ body {
 }
 
 .idea-6 span{
-  font-size: 5rem;
+  font-size: 2em;
 }
 
 
@@ -203,21 +203,38 @@ body {
 }
 
 .wish-hbd {
-  font-size: 1em;
+  display: inline-block;
+  font-size: 1.5em;
   margin: 0;
-  letter-spacing: 0.5em;
+  letter-spacing: 0.3em;
+  text-align: center;
+  word-spacing: 0.5em;
+  font-family: 'Times New Roman', serif; /* Cambia la fuente a Times New Roman */
+  color: 	#56070C; /* Color rosa */
 }
 
 .wish h5 {
+  display: inline-block;
   font-size: 1rem;
   font-weight: lighter;
   margin: 10px 0 0;
+  letter-spacing: 0.2em;
+  text-align: center;
+  font-family: 'Times New Roman', serif; /* Cambia la fuente a Times New Roman */
+  color: #000000; /* Color negro */
 }
+
+.wish {
+  text-align: center;
+}
+
+
+
 
 .nine p {
   font-size: 2rem;
   font-weight: lighter;
-  font-style: italic;
+  font-style: 'Times New Roman', serif;
 }
 
 #replay {
@@ -269,7 +286,7 @@ body {
       max-width: 100%; /* Ensure the width fits within the screen */
     }
   }
-  
+
   .four .text-box {
     width: 90%;
   }
@@ -284,22 +301,13 @@ body {
   }
 
   .idea-6 span {
-    font-size: 10rem;
-  }
-
-  .wish-hbd {
     font-size: 2em;
-    margin: 20;
-    text-transform: uppercase;
-    letter-spacing: 3em; /* Ajusta el espacio entre letras según tus necesidades */
-}
-
-  .wish h5 {
-    font-size: 1.4rem;
   }
+
+}
 
   .nine p {
     font-size: 1.5rem;
     font-weight: lighter;
   }
-}
+
